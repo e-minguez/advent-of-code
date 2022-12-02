@@ -1,0 +1,32 @@
+A = Piedra
+B = Papel
+C = Tijeras
+
+X = Piedra = 1
+Y = Papel = 2
+Z = Tijeras = 3
+
+###########
+#    1    #
+###########
+
+Score = X,Y o Z + (0 si pierdo, 3 si empate, 6 si gano)
+
+A Y = Piedra vs Papel = 2 + 6 = 8
+B X = Papel vs Piedra = 1
+C Z = Tijeras vs Tijeras = 3 + 3 = 6
+
+total = 15
+
+###########
+#    2    #
+###########
+
+X = pierdo
+Y = empato
+Z = gano
+
+
+A Y = Piedra vs ALGO = empato, piedra = 3 + 1 = 4
+B X = Papel vs ALGO = pierdo, piedra = 1
+C Z = Tijeras vs ALGO = gano, piedra = 6 + 1 = 7
